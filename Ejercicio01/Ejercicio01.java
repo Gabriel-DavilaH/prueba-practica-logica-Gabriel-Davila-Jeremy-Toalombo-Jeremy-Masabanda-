@@ -90,3 +90,15 @@ public class Ejercicio01 {
                 mejorEstudiante = nombre;
             }
         }
+               double promedioGeneral = sumaPromedios / N;
+
+        System.out.println("\n========== RESULTADOS ==========");
+        System.out.println("Promedio general: " + promedioGeneral);
+        System.out.println("Aprobados: " + aprobados);
+        System.out.println("Reprobados: " + reprobados);
+        System.out.println("Mejor estudiante: " + mejorEstudiante);
+        System.out.println("Mejor promedio: " + mejorPromedio);
+
+        sc.close();
+    }
+}
