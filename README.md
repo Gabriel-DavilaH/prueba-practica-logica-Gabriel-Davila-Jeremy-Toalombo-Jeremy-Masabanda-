@@ -16,7 +16,7 @@
 * Dávila Hernández Gabriel Marcelo
 * Masabanda Chasiluisa Jeremy Isaac
 ## Curso 
-Software b Nivel 1
+Software "B" Nivel 1
 ## 📝 Descripción de los Ejercicios
 
 * **calificaciones** El programa EduGrade permite registrar la información de N estudiantes, solicitando para cada uno su nombre, tres notas y el porcentaje de asistencia. Valida que las notas estén entre 0 y 10 y que la asistencia esté entre 0 y 100%. Luego, calcula el promedio ponderado de las tres notas utilizando los porcentajes de 30%, 30% y 40%, clasifica al estudiante mediante estructuras if/else-if y determina su condición académica. Finalmente, procesa todos los estudiantes y muestra el promedio general, la cantidad de aprobados y reprobados y el estudiante con el mejor promedio.
