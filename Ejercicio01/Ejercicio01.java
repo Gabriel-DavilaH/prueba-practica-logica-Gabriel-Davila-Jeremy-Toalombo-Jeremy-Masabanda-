@@ -44,7 +44,7 @@ public class Ejercicio01 {
                 System.out.print("Nota invalida. Ingrese nuevamente: ");
                 nota2 = sc.nextDouble();
             }
-            
+
             System.out.print("Ingrese la nota 3 (0-10): ");
             double nota3 = sc.nextDouble();
 
@@ -90,7 +90,8 @@ public class Ejercicio01 {
                 mejorEstudiante = nombre;
             }
         }
-               double promedioGeneral = sumaPromedios / N;
+
+        double promedioGeneral = sumaPromedios / N;
 
         System.out.println("\n========== RESULTADOS ==========");
         System.out.println("Promedio general: " + promedioGeneral);
