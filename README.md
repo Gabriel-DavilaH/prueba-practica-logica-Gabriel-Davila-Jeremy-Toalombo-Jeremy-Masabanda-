@@ -20,4 +20,31 @@ Software "B" Nivel 1
 ## 📝 Descripción de los Ejercicios
 
 * **calificaciones** <br> El programa EduGrade permite registrar la información de N estudiantes, solicitando para cada uno su nombre, tres notas y el porcentaje de asistencia. Valida que las notas estén entre 0 y 10 y que la asistencia esté entre 0 y 100%. Luego, calcula el promedio ponderado de las tres notas utilizando los porcentajes de 30%, 30% y 40%, clasifica al estudiante mediante estructuras if/else-if y determina su condición académica. Finalmente, procesa todos los estudiantes y muestra el promedio general, la cantidad de aprobados y reprobados y el estudiante con el mejor promedio.
+## Instrucciones de uso
+
+1. Abra el programa **Ejercicio01** en un entorno compatible con Java.
+2. Ejecute el programa.
+3. Ingrese la **cantidad de estudiantes** que desea registrar.
+4. Para cada estudiante, ingrese:
+
+   * Nombre.
+   * Nota 1, con un valor entre **0 y 10**.
+   * Nota 2, con un valor entre **0 y 10**.
+   * Nota 3, con un valor entre **0 y 10**.
+   * Porcentaje de asistencia, con un valor entre **0 y 100**.
+5. Si se ingresa un valor fuera de los rangos permitidos, el programa solicitará ingresarlo nuevamente.
+6. El programa calculará automáticamente el **promedio ponderado** de cada estudiante.
+7. Se mostrará la clasificación correspondiente:
+
+   * **Excelente:** promedio ≥ 9
+   * **Aprobado:** promedio ≥ 7
+   * **Supletorio:** promedio ≥ 5
+   * **Reprobado:** promedio < 5
+8. Al finalizar, se mostrarán los resultados generales:
+
+   * Promedio general.
+   * Número de estudiantes aprobados.
+   * Número de estudiantes reprobados.
+   * Mejor estudiante.
+   * Mejor promedio.
 
