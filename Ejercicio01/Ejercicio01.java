@@ -44,3 +44,49 @@ public class Ejercicio01 {
                 System.out.print("Nota invalida. Ingrese nuevamente: ");
                 nota2 = sc.nextDouble();
             }
+            
+            System.out.print("Ingrese la nota 3 (0-10): ");
+            double nota3 = sc.nextDouble();
+
+            while (nota3 < 0 || nota3 > 10) {
+                System.out.print("Nota invalida. Ingrese nuevamente: ");
+                nota3 = sc.nextDouble();
+            }
+
+            System.out.print("Ingrese la asistencia (0-100): ");
+            double asistencia = sc.nextDouble();
+
+            while (asistencia < 0 || asistencia > 100) {
+                System.out.print("Asistencia invalida. Ingrese nuevamente: ");
+                asistencia = sc.nextDouble();
+            }
+
+            double promedio = (nota1 * 0.30) +
+                              (nota2 * 0.30) +
+                              (nota3 * 0.40);
+
+            System.out.println("Promedio: " + promedio);
+
+            if (promedio >= 9) {
+                System.out.println("Clasificacion: Excelente");
+            } else if (promedio >= 7) {
+                System.out.println("Clasificacion: Aprobado");
+            } else if (promedio >= 5) {
+                System.out.println("Clasificacion: Supletorio");
+            } else {
+                System.out.println("Clasificacion: Reprobado");
+            }
+
+            if (promedio >= 7 && asistencia >= 75) {
+                aprobados++;
+            } else {
+                reprobados++;
+            }
+
+            sumaPromedios += promedio;
+
+            if (promedio > mejorPromedio) {
+                mejorPromedio = promedio;
+                mejorEstudiante = nombre;
+            }
+        }
